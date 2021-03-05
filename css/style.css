@@ -19,17 +19,17 @@ body {
 }
 ._container {
 	max-width: 500px;
-	height: 100vh;
+	min-height: 100vh;
 	margin: 0 auto;
 	padding: 0 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 25px 0;
+	padding: 25px 10px;
 }
-/* .gen {
-	padding: 25px 0;
-} */
+.gen {
+	margin-bottom: 20px;
+}
 .gen__title {
 	font-size: 32px;
 	font-weight: bold;
